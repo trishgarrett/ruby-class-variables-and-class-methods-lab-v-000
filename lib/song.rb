@@ -47,6 +47,8 @@ end
 
 
 def self.artist_count
+  counts = Hash.new 0
+  @@artists.collect do |artist|
 
 end
 end
