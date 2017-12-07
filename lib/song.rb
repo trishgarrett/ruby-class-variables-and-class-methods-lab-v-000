@@ -52,7 +52,7 @@ def self.artist_count
     if counts[artist]
       counts[artist] += 1
     else
-      counts[artist] = 1  
+      counts[artist] = 1
     end
   end    
 end
