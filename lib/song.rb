@@ -38,6 +38,7 @@ def self.genre_count
   words.each do |word|
   counts[word] += 1
 end
+counts
 end
 #   counts = Hash.new 0
 #   @@genres.collect do |genre|
