@@ -54,7 +54,8 @@ def self.artist_count
     else
       counts[artist] = 1
     end
-  end    
+  end
+  counts    
 end
 
 end
